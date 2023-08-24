@@ -1,19 +1,40 @@
 <!DOCTYPE html>
+<!--Essa linha abre a tag <html> e define o atributo lang 
+com o valor "en" para indicar que o idioma do conteúdo é inglês.-->
 <html lang="en">
+<!--Aqui começa a seção do cabeçalho da página, onde são colocadas informações
+sobre o documento que não serão exibidas no navegador, como metadados, 
+links para estilos e scripts, e título da página.-->
     <head>
+        <!--Isso define o título da página que será exibido na 
+            guia do navegador ou na barra de título da janela.-->
         <title>Café do Katiau</title>
+<!--Esta linha define a codificação de caracteres do documento como UTF-8, 
+    que suporta uma ampla variedade de caracteres e símbolos.-->
         <meta charset="UTF-8">
+<!--Essa meta tag é usada para controlar a exibição responsiva da página em 
+dispositivos móveis. width=device-width significa que a largura da página deve se ajustar
+ao tamanho da tela do dispositivo e initial-scale=1 define a escala inicial da página.-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Este link importa o arquivo "style.css", que é um arquivo de folha de estilo externo,
+     utilizado para estilizar a página.-->
         <link rel="stylesheet" href="style.css">
     </head>
+<!--Aqui começa o corpo principal da página, onde todo o conteúdo
+     visível será exibido no navegador.-->
     <body>
         <h1>Café da Manhã</h1>
         <p>Faça seu Pedido</p>
+<!--Esta linha abre a tag <header> com a classe CSS "container". Geralmente, um <header>
+     contém elementos de cabeçalho da página, como logotipos, menus etc-->
         <header class="container">
-            
+        <!--Isso abre uma div com a classe CSS "tela".-->
             <div class="tela">
+<!--Isso insere uma imagem com o atributo src especificando o caminho para o arquivo
+"cesta.jpg" e o atributo alt vazio (pode ser usado para texto alternativo para acessibilidade).-->
                 <img src="cesta.jpg" alt="">
                 <h3>Cesta de café da manhã</h3>
+<!--Isso cria um parágrafo contendo um link (<a>) vazio com um <span> contendo o texto "Pedir".-->
                 <p><a href="cesta.html"><span>Pedir</span></a></p>
             </div>
             <div class="tela">
@@ -32,9 +53,6 @@
                 <p><a href="mom.html"><span>Pedir</span></a></p>
             </div>
         </header>
-
-
-
 
     </body>
 </html>
